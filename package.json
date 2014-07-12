@@ -1,0 +1,23 @@
+{
+  "name": "potassium",
+  "version": "0.0.0",
+  "description": "reactive web framework built on pubnub",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cultofmetatron/potassium.git"
+  },
+  "author": "Peter de Croos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cultofmetatron/potassium/issues"
+  },
+  "homepage": "https://github.com/cultofmetatron/potassium",
+  "dependencies": {
+    "pubnub": "^3.6.7",
+    "rx": "^2.2.28"
+  }
+}

@@ -17,7 +17,13 @@
   },
   "homepage": "https://github.com/cultofmetatron/potassium",
   "dependencies": {
+    "lodash": "^2.4.1",
+    "mocha": "^1.20.1",
+    "node-uuid": "^1.4.1",
     "pubnub": "^3.6.7",
     "rx": "^2.2.28"
+  },
+  "devDependencies": {
+    "should": "^4.0.4"
   }
 }

@@ -1,0 +1,22 @@
+var rx = require('rx');
+var EventEmitter = require('events').EventEmitter;
+var util = require('util');
+
+var Potassium = function(params) {
+  this.pubnub = params.pubnub;
+  this.rootChannel = params.rootChannel;
+
+};
+
+util.inherits(Potassium, EventEmitter);
+
+Potassium.prototype.use = function() {
+  EventEmitter.call(this);
+
+};
+
+Potassium.prototype.bindPubnub = function() {
+
+};
+
+module.exports = Potassium;
